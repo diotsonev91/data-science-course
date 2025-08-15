@@ -1,0 +1,25 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_lock
+
+# Data & outputs
+Dataset/
+data/
+reports/
+experiments/runs/
+reports/figures/
+
+# Models / large artifacts
+*.pth
+*.pt
+*.onnx
+
+# Python cruft
+__pycache__/
+*.pyc
+.env
+.venv
+
+# OS
+.DS_Store
+Thumbs.db
