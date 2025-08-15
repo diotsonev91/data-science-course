@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 from typing import Dict, Optional
+import torchvision
+import numpy as np
 
 def display_class_distribution(
     class_counts: Dict[str, int],
@@ -20,3 +22,20 @@ def display_class_distribution(
     if save_path:
         plt.savefig(save_path, dpi=150)
     plt.show()
+
+def show_batch(images, labels=None, class_names=None, grayscale=True, n: int = 8):
+    grid = torchvision.utils.make_grid(images[:n])
+    img = grid / 2 + 0.5  # unnormalize
+    arr = img.numpy()
+    if grayscale:
+        arr = arr[0]
+        plt.imshow(arr, cmap='gray')
+    else:
+        plt.imshow(np.transpose(arr, (1, 2, 0)))
+    plt.axis('off')
+    plt.show()
+    if labels is not None and class_names is not None:
+        for i in range(min(n, len(labels))):
+            print(f"Image {i+1}: {class_names[labels[i].item()]}")
+
+
