@@ -1,0 +1,154 @@
+{
+  "Grayscale MaxPool": {
+    "test_accuracy": 0.8336996336996337,
+    "train_losses": [
+      0.771276868616299,
+      0.24135308501327682,
+      0.1394659851841691,
+      0.0803670896847884,
+      0.08447185643440984,
+      0.062582489628454,
+      0.046405030998006504,
+      0.05751118829217963
+    ],
+    "val_accuracies": [
+      0.945054945054945,
+      0.9914529914529915,
+      1.0,
+      1.0,
+      0.9975579975579976,
+      1.0,
+      0.9987789987789988,
+      0.9963369963369964
+    ],
+    "plot": "../experiments/plots/Grayscale_MaxPool_plot.png",
+    "ckpt": "experiments/runs/Grayscale_MaxPool_best.pt",
+    "class_names": [
+      "Apple Red 1",
+      "Avocado 1",
+      "Banana 1",
+      "Kaki 1",
+      "Orange 1",
+      "Pineapple 1",
+      "Strawberry 1",
+      "Tomato 1"
+    ],
+    "in_channels": 1
+  },
+  "Grayscale AdaptiveAvgPool": {
+    "test_accuracy": 0.8717948717948718,
+    "train_losses": [
+      0.7025352791769476,
+      0.2723723263343478,
+      0.17282433774068146,
+      0.10517870229226146,
+      0.07804396239978317,
+      0.07479837143435406,
+      0.057496171208774205,
+      0.06201688144041017,
+      0.053051957606493956
+    ],
+    "val_accuracies": [
+      0.9218559218559218,
+      0.9877899877899878,
+      0.9987789987789988,
+      1.0,
+      0.9731379731379731,
+      1.0,
+      1.0,
+      0.9975579975579976,
+      1.0
+    ],
+    "plot": "../experiments/plots/Grayscale_AdaptiveAvgPool_plot.png",
+    "ckpt": "experiments/runs/Grayscale_AdaptiveAvgPool_best.pt",
+    "class_names": [
+      "Apple Red 1",
+      "Avocado 1",
+      "Banana 1",
+      "Kaki 1",
+      "Orange 1",
+      "Pineapple 1",
+      "Strawberry 1",
+      "Tomato 1"
+    ],
+    "in_channels": 1
+  },
+  "RGB CNN With Noise": {
+    "test_accuracy": 0.8857142857142857,
+    "train_losses": [
+      0.459312221387998,
+      0.06964231610243905,
+      0.04378566997311105,
+      0.044431569693029124,
+      0.012258128214173146,
+      0.03490742309804773,
+      0.021634334203766238,
+      0.011389973430763771,
+      0.016864119632549933,
+      0.00786019806831779
+    ],
+    "val_accuracies": [
+      0.9951159951159951,
+      0.9865689865689866,
+      0.9987789987789988,
+      0.9987789987789988,
+      1.0,
+      1.0,
+      0.9987789987789988,
+      1.0,
+      1.0,
+      0.9987789987789988
+    ],
+    "plot": "../experiments/plots/RGB_CNN_With_Noise_plot.png",
+    "ckpt": "experiments/runs/RGB_CNN_With_Noise_best.pt",
+    "class_names": [
+      "Apple Red 1",
+      "Avocado 1",
+      "Banana 1",
+      "Kaki 1",
+      "Orange 1",
+      "Pineapple 1",
+      "Strawberry 1",
+      "Tomato 1"
+    ],
+    "in_channels": 3
+  },
+  "RGB CNN Without Noise": {
+    "test_accuracy": 0.8857142857142857,
+    "train_losses": [
+      0.4417799013639683,
+      0.0516878471131102,
+      0.026500186347176585,
+      0.044001755161658475,
+      0.011392547923605889,
+      0.008453282365505922,
+      0.01176215967283391,
+      0.004453239126187062,
+      0.0599638875698907
+    ],
+    "val_accuracies": [
+      0.9987789987789988,
+      0.9951159951159951,
+      0.9987789987789988,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "plot": "../experiments/plots/RGB_CNN_Without_Noise_plot.png",
+    "ckpt": "experiments/runs/RGB_CNN_Without_Noise_best.pt",
+    "class_names": [
+      "Apple Red 1",
+      "Avocado 1",
+      "Banana 1",
+      "Kaki 1",
+      "Orange 1",
+      "Pineapple 1",
+      "Strawberry 1",
+      "Tomato 1"
+    ],
+    "in_channels": 3
+  }
+}

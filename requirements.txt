@@ -1,0 +1,23 @@
+# Core
+numpy>=1.26,<2
+pandas>=2.1,<2.4
+scikit-learn>=1.4
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+pillow>=10
+pyyaml
+
+# Jupyter
+ipykernel
+jupyterlab
+
+# PyTorch CPU (pip wheels are portable)
+torch==2.5.*
+torchvision==0.20.*
+torchaudio==2.5.*
+
+# Nice-to-haves
+tqdm
+typing_extensions
+
