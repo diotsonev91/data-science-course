@@ -20,4 +20,5 @@ torchaudio==2.5.*
 # Nice-to-haves
 tqdm
 typing_extensions
+statsmodels
 
