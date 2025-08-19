@@ -1,0 +1,15 @@
+{
+  "FruitCNN_Gray_MaxPool": {
+    "fp32": {
+      "accuracy": 0.5773,
+      "size_mb": 9.544,
+      "time_sec": 2.977
+    },
+    "int8": {
+      "accuracy": 0.5766,
+      "size_mb": 2.462,
+      "time_sec": 2.438,
+      "speedup_vs_fp32": 1.221
+    }
+  }
+}

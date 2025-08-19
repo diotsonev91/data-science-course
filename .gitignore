@@ -4,10 +4,10 @@
 
 # Data & outputs
 Dataset/
-data/
+#data/
 reports/
-experiments/runs/
-reports/figures/
+#experiments/runs/
+#reports/figures/
 
 # Models / large artifacts
 *.pth
