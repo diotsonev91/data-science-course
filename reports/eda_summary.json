@@ -1,0 +1,58 @@
+{
+  "fruits360": {
+    "train_total": 4074,
+    "test_total": 1365,
+    "n_train_classes": 8,
+    "n_test_classes": 8
+  },
+  "fresh_only": {
+    "train_total": 600,
+    "n_train_classes": 3,
+    "mapping_used": {
+      "freshapples": "Apple",
+      "freshbanana": "Banana",
+      "freshoranges": "Orange"
+    }
+  },
+  "fruit262": {
+    "split_stats": {
+      "ratios": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "seed": 42,
+      "classes": {
+        "Avocado": {
+          "train": 935,
+          "val": 116,
+          "test": 118
+        },
+        "Kiwi": {
+          "train": 808,
+          "val": 101,
+          "test": 101
+        },
+        "Pineapple": {
+          "train": 829,
+          "val": 103,
+          "test": 105
+        },
+        "Strawberry": {
+          "train": 801,
+          "val": 100,
+          "test": 101
+        },
+        "Tomato": {
+          "train": 800,
+          "val": 100,
+          "test": 100
+        }
+      }
+    },
+    "train_total": 8346,
+    "val_total": 1040,
+    "test_total": 1050,
+    "n_classes": 5
+  }
+}

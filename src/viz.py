@@ -26,6 +26,16 @@ def display_class_distribution(
         plt.savefig(save_path, dpi=150)
     plt.show()
 
+def display_split_distributions(per_split: dict, prefix_title: str, save_prefix: str | None = None):
+    """
+    per_split = {"train": {...}, "val": {...}, "test": {...}}
+    """
+    for split, counts in per_split.items():
+        title = f"{prefix_title} — {split.capitalize()} Distribution"
+        path = f"{save_prefix}_{split}.png" if save_prefix else None
+        display_class_distribution(counts, title=title, save_path=path)
+
+
 def show_batch(images, labels=None, class_names=None, grayscale=True, n: int = 8):
     grid = torchvision.utils.make_grid(images[:n])
     img = grid / 2 + 0.5  # unnormalize
