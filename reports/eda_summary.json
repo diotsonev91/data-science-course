@@ -50,7 +50,7 @@
         }
       }
     },
-    "train_total": 8346,
+    "train_total": 5113,
     "val_total": 1040,
     "test_total": 1050,
     "n_classes": 5
