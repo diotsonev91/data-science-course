@@ -1,0 +1,11 @@
+{
+  "domain": "F262",
+  "model_A": "MobileNetV2 Grayscale MaxPool — F262",
+  "model_B": "MobileNetV2 RGB Clean — F262",
+  "n": 1050,
+  "acc_A": 0.19047619047619047,
+  "acc_B": 0.14666666666666667,
+  "b": 68,
+  "c": 22,
+  "p_value_exact": 1.249258128763103e-06
+}
